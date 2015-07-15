@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F958960A1B35F43900CF49A9 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = F95896091B35F43900CF49A9 /* Player.m */; };
+		F958960D1B35F49000CF49A9 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = F958960C1B35F49000CF49A9 /* Cell.m */; };
+		F97E5A0B1B372AE70065794A /* World.m in Sources */ = {isa = PBXBuildFile; fileRef = F97E5A0A1B372AE70065794A /* World.m */; };
+		F97E5A0E1B372C730065794A /* DPad.m in Sources */ = {isa = PBXBuildFile; fileRef = F97E5A0D1B372C730065794A /* DPad.m */; };
+		F97E5A101B3730430065794A /* GraphPaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F97E5A0F1B3730430065794A /* GraphPaper.jpg */; };
+		F98472221B2DD35400363C53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F98472211B2DD35400363C53 /* main.m */; };
+		F98472251B2DD35400363C53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F98472241B2DD35400363C53 /* AppDelegate.m */; };
+		F98472281B2DD35400363C53 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F98472271B2DD35400363C53 /* GameScene.m */; };
+		F984722A1B2DD35400363C53 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F98472291B2DD35400363C53 /* GameScene.sks */; };
+		F984722D1B2DD35400363C53 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F984722C1B2DD35400363C53 /* GameViewController.m */; };
+		F98472301B2DD35400363C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F984722E1B2DD35400363C53 /* Main.storyboard */; };
+		F98472321B2DD35400363C53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98472311B2DD35400363C53 /* Images.xcassets */; };
+		F98472351B2DD35400363C53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98472331B2DD35400363C53 /* LaunchScreen.xib */; };
+		F98472411B2DD35500363C53 /* iAgarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F98472401B2DD35500363C53 /* iAgarTests.m */; };
+		F9A4940A1B39CAF900A5D820 /* Buttons.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A494091B39CAF900A5D820 /* Buttons.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F984723B1B2DD35500363C53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F98472141B2DD35400363C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F984721B1B2DD35400363C53;
+			remoteInfo = iAgar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F95896081B35F43900CF49A9 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		F95896091B35F43900CF49A9 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		F958960B1B35F49000CF49A9 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		F958960C1B35F49000CF49A9 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		F97E5A091B372AE70065794A /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		F97E5A0A1B372AE70065794A /* World.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = World.m; sourceTree = "<group>"; };
+		F97E5A0C1B372C730065794A /* DPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPad.h; sourceTree = "<group>"; };
+		F97E5A0D1B372C730065794A /* DPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPad.m; sourceTree = "<group>"; };
+		F97E5A0F1B3730430065794A /* GraphPaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GraphPaper.jpg; path = Assets/GraphPaper.jpg; sourceTree = "<group>"; };
+		F984721C1B2DD35400363C53 /* iAgar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAgar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98472201B2DD35400363C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98472211B2DD35400363C53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F98472231B2DD35400363C53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F98472241B2DD35400363C53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F98472261B2DD35400363C53 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		F98472271B2DD35400363C53 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		F98472291B2DD35400363C53 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F984722B1B2DD35400363C53 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		F984722C1B2DD35400363C53 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		F984722F1B2DD35400363C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F98472311B2DD35400363C53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F98472341B2DD35400363C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F984723A1B2DD35500363C53 /* iAgarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iAgarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F984723F1B2DD35500363C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98472401B2DD35500363C53 /* iAgarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iAgarTests.m; sourceTree = "<group>"; };
+		F9A494081B39CAF900A5D820 /* Buttons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Buttons.h; sourceTree = "<group>"; };
+		F9A494091B39CAF900A5D820 /* Buttons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Buttons.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F98472191B2DD35400363C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98472371B2DD35500363C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F98472131B2DD35400363C53 = {
+			isa = PBXGroup;
+			children = (
+				F984721E1B2DD35400363C53 /* iAgar */,
+				F984723D1B2DD35500363C53 /* iAgarTests */,
+				F984721D1B2DD35400363C53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F984721D1B2DD35400363C53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F984721C1B2DD35400363C53 /* iAgar.app */,
+				F984723A1B2DD35500363C53 /* iAgarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F984721E1B2DD35400363C53 /* iAgar */ = {
+			isa = PBXGroup;
+			children = (
+				F98472231B2DD35400363C53 /* AppDelegate.h */,
+				F98472241B2DD35400363C53 /* AppDelegate.m */,
+				F97E5A0C1B372C730065794A /* DPad.h */,
+				F97E5A0D1B372C730065794A /* DPad.m */,
+				F9A494081B39CAF900A5D820 /* Buttons.h */,
+				F9A494091B39CAF900A5D820 /* Buttons.m */,
+				F98472261B2DD35400363C53 /* GameScene.h */,
+				F98472271B2DD35400363C53 /* GameScene.m */,
+				F97E5A091B372AE70065794A /* World.h */,
+				F97E5A0A1B372AE70065794A /* World.m */,
+				F95896081B35F43900CF49A9 /* Player.h */,
+				F95896091B35F43900CF49A9 /* Player.m */,
+				F958960B1B35F49000CF49A9 /* Cell.h */,
+				F958960C1B35F49000CF49A9 /* Cell.m */,
+				F98472291B2DD35400363C53 /* GameScene.sks */,
+				F984722B1B2DD35400363C53 /* GameViewController.h */,
+				F984722C1B2DD35400363C53 /* GameViewController.m */,
+				F97E5A0F1B3730430065794A /* GraphPaper.jpg */,
+				F984722E1B2DD35400363C53 /* Main.storyboard */,
+				F98472311B2DD35400363C53 /* Images.xcassets */,
+				F98472331B2DD35400363C53 /* LaunchScreen.xib */,
+				F984721F1B2DD35400363C53 /* Supporting Files */,
+			);
+			path = iAgar;
+			sourceTree = "<group>";
+		};
+		F984721F1B2DD35400363C53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F98472201B2DD35400363C53 /* Info.plist */,
+				F98472211B2DD35400363C53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F984723D1B2DD35500363C53 /* iAgarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F98472401B2DD35500363C53 /* iAgarTests.m */,
+				F984723E1B2DD35500363C53 /* Supporting Files */,
+			);
+			path = iAgarTests;
+			sourceTree = "<group>";
+		};
+		F984723E1B2DD35500363C53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F984723F1B2DD35500363C53 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F984721B1B2DD35400363C53 /* iAgar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98472441B2DD35500363C53 /* Build configuration list for PBXNativeTarget "iAgar" */;
+			buildPhases = (
+				F98472181B2DD35400363C53 /* Sources */,
+				F98472191B2DD35400363C53 /* Frameworks */,
+				F984721A1B2DD35400363C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iAgar;
+			productName = iAgar;
+			productReference = F984721C1B2DD35400363C53 /* iAgar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F98472391B2DD35500363C53 /* iAgarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98472471B2DD35500363C53 /* Build configuration list for PBXNativeTarget "iAgarTests" */;
+			buildPhases = (
+				F98472361B2DD35500363C53 /* Sources */,
+				F98472371B2DD35500363C53 /* Frameworks */,
+				F98472381B2DD35500363C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F984723C1B2DD35500363C53 /* PBXTargetDependency */,
+			);
+			name = iAgarTests;
+			productName = iAgarTests;
+			productReference = F984723A1B2DD35500363C53 /* iAgarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F98472141B2DD35400363C53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = CD;
+				TargetAttributes = {
+					F984721B1B2DD35400363C53 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F98472391B2DD35500363C53 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F984721B1B2DD35400363C53;
+					};
+				};
+			};
+			buildConfigurationList = F98472171B2DD35400363C53 /* Build configuration list for PBXProject "iAgar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F98472131B2DD35400363C53;
+			productRefGroup = F984721D1B2DD35400363C53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F984721B1B2DD35400363C53 /* iAgar */,
+				F98472391B2DD35500363C53 /* iAgarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F984721A1B2DD35400363C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98472351B2DD35400363C53 /* LaunchScreen.xib in Resources */,
+				F98472321B2DD35400363C53 /* Images.xcassets in Resources */,
+				F984722A1B2DD35400363C53 /* GameScene.sks in Resources */,
+				F97E5A101B3730430065794A /* GraphPaper.jpg in Resources */,
+				F98472301B2DD35400363C53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98472381B2DD35500363C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F98472181B2DD35400363C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A4940A1B39CAF900A5D820 /* Buttons.m in Sources */,
+				F984722D1B2DD35400363C53 /* GameViewController.m in Sources */,
+				F97E5A0B1B372AE70065794A /* World.m in Sources */,
+				F97E5A0E1B372C730065794A /* DPad.m in Sources */,
+				F958960D1B35F49000CF49A9 /* Cell.m in Sources */,
+				F98472251B2DD35400363C53 /* AppDelegate.m in Sources */,
+				F98472281B2DD35400363C53 /* GameScene.m in Sources */,
+				F98472221B2DD35400363C53 /* main.m in Sources */,
+				F958960A1B35F43900CF49A9 /* Player.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98472361B2DD35500363C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98472411B2DD35500363C53 /* iAgarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F984723C1B2DD35500363C53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F984721B1B2DD35400363C53 /* iAgar */;
+			targetProxy = F984723B1B2DD35500363C53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F984722E1B2DD35400363C53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F984722F1B2DD35400363C53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F98472331B2DD35400363C53 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F98472341B2DD35400363C53 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F98472421B2DD35500363C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F98472431B2DD35500363C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F98472451B2DD35500363C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iAgar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CDdesigns.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F98472461B2DD35500363C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iAgar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CDdesigns.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F98472481B2DD35500363C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iAgarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CDdesigns.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iAgar.app/iAgar";
+			};
+			name = Debug;
+		};
+		F98472491B2DD35500363C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iAgarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CDdesigns.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iAgar.app/iAgar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F98472171B2DD35400363C53 /* Build configuration list for PBXProject "iAgar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98472421B2DD35500363C53 /* Debug */,
+				F98472431B2DD35500363C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F98472441B2DD35500363C53 /* Build configuration list for PBXNativeTarget "iAgar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98472451B2DD35500363C53 /* Debug */,
+				F98472461B2DD35500363C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F98472471B2DD35500363C53 /* Build configuration list for PBXNativeTarget "iAgarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98472481B2DD35500363C53 /* Debug */,
+				F98472491B2DD35500363C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F98472141B2DD35400363C53 /* Project object */;
+}
